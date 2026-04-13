@@ -28,3 +28,6 @@ app.include_router(test_factors.router)
 
 static_dir = Path(__file__).resolve().parents[1] / "frontend"
 app.mount("/static", StaticFiles(directory=str(static_dir)), name="static")
+
+def tr2_fun():
+    pass
